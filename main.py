@@ -1,4 +1,12 @@
+import os
+from keep_alive import keep_alive
 
+# Запуск веб-сервера
+keep_alive()
+
+# Получение переменных окружения
+TOKEN = os.environ['TOKEN']
+ADMIN_CHAT_ID = os.environ['ADMIN_CHAT_ID']
 
 import datetime
 import time
